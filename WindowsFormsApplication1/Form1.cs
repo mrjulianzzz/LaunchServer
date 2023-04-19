@@ -99,8 +99,10 @@ namespace WindowsFormsApplication1
 
     private void Check_Process()
     {
+      // no config file - use these line
       if (Process.GetProcessesByName("Minia.exe").Length != 0)  
-
+      
+      // use config file - use these line
       //if (Process.GetProcessesByName(ConfigurationManager.AppSettings["ExeName"]).Length != 0)
       {
                 _ = (int)MessageBox.Show("Game Already Running");
