@@ -17,7 +17,7 @@ namespace WindowsFormsApplication1
     private Point lastClick;
         // no config file - use these 2 line
         private readonly string ProcessX = "Minia.exe";
-        private readonly string Ip = "15.235.181.195";
+        private readonly string Ip = "127.0.0.1";
 
         // use config file - use these 2 line
         //private readonly string ProcessX = ConfigurationManager.AppSettings["ExeName"];
